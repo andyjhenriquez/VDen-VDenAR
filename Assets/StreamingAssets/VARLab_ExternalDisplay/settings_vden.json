@@ -1,0 +1,354 @@
+{
+    "windowOverrides": [
+        {
+            "name": "Window_Front",
+            "position": [
+                0,
+                0
+            ],
+            "size": [
+                1920,
+                1200
+            ]
+        },
+        {
+            "name": "Window_Left",
+            "position": [
+                -1920,
+                0
+            ],
+            "size": [
+                1920,
+                1200
+            ]
+        },
+        {
+            "name": "Window_Right",
+            "position": [
+                1920,
+                0
+            ],
+            "size": [
+                1920,
+                1200
+            ]
+        },
+        {
+            "name": "Window_Floor",
+            "position": [
+                3840,
+                0
+            ],
+            "size": [
+                1920,
+                1200
+            ]
+        }
+    ],
+    "warpMeshOverrides": [
+        {
+            "name": "Warp_Front",
+            "style": "MultiHomography",
+            "meshResolution": [
+                16,
+                16
+            ],
+            "controlPoints": {
+                "topLeft": [
+                    -0.7351695,
+                    1
+                ],
+                "top": [
+                    -0.2114991,
+                    1
+                ],
+                "topRight": [
+                    0.346317,
+                    1
+                ],
+                "left": [
+                    -0.7808385,
+                    0.2149948
+                ],
+                "center": [
+                    -0.212505,
+                    0.2033302
+                ],
+                "right": [
+                    0.3746819,
+                    0.1599963
+                ],
+                "bottomLeft": [
+                    -0.8441662,
+                    -0.7141721
+                ],
+                "bottom": [
+                    -0.2208275,
+                    -0.7791665
+                ],
+                "bottomRight": [
+                    0.4141755,
+                    -0.8930005
+                ]
+            }
+        },
+        {
+            "name": "Warp_Left",
+            "style": "MultiHomography",
+            "meshResolution": [
+                16,
+                16
+            ],
+            "controlPoints": {
+                "topLeft": [
+                    -0.2191902,
+                    1
+                ],
+                "top": [
+                    0.3294922,
+                    1
+                ],
+                "topRight": [
+                    0.8850027,
+                    1
+                ],
+                "left": [
+                    -0.2141911,
+                    0.3053298
+                ],
+                "center": [
+                    0.3604856,
+                    0.2661668
+                ],
+                "right": [
+                    0.9218339,
+                    0.2358173
+                ],
+                "bottomLeft": [
+                    -0.2115194,
+                    -0.4788464
+                ],
+                "bottom": [
+                    0.3873338,
+                    -0.5381775
+                ],
+                "bottomRight": [
+                    0.9651757,
+                    -0.6098466
+                ]
+            }
+        },
+        {
+            "name": "Warp_Right",
+            "style": "MultiHomography",
+            "meshResolution": [
+                16,
+                16
+            ],
+            "controlPoints": {
+                "topLeft": [
+                    -0.8786649,
+                    0.9590073
+                ],
+                "top": [
+                    -0.3271588,
+                    0.9930001
+                ],
+                "topRight": [
+                    0.2091895,
+                    1
+                ],
+                "left": [
+                    -0.8875033,
+                    0.2068314
+                ],
+                "center": [
+                    -0.3513262,
+                    0.2446611
+                ],
+                "right": [
+                    0.2236865,
+                    0.2748263
+                ],
+                "bottomLeft": [
+                    -0.8895026,
+                    -0.5863379
+                ],
+                "bottom": [
+                    -0.3616604,
+                    -0.5650099
+                ],
+                "bottomRight": [
+                    0.2435178,
+                    -0.5703439
+                ]
+            }
+        },
+        {
+            "name": "Warp_Floor",
+            "style": "MultiHomography",
+            "meshResolution": [
+                16,
+                16
+            ],
+            "controlPoints": {
+                "topLeft": [
+                    -0.3446826,
+                    1.0485
+                ],
+                "top": [
+                    0.3981568,
+                    0.9385006
+                ],
+                "topRight": [
+                    1.043994,
+                    0.7740089
+                ],
+                "left": [
+                    -0.1558554,
+                    -0.5924873
+                ],
+                "center": [
+                    0.1581587,
+                    -0.61915
+                ],
+                "right": [
+                    0.4621841,
+                    -0.6639872
+                ],
+                "bottomLeft": [
+                    -0.1038598,
+                    -1.064
+                ],
+                "bottom": [
+                    0.0871648,
+                    -1.078
+                ],
+                "bottomRight": [
+                    0.2885175,
+                    -1.106
+                ]
+            }
+        }
+    ],
+    "presentOverrides": [
+        {
+            "name": "Present_Front_LeftEye",
+            "targetWindow": "Window_Front",
+            "viewportRect": {
+                "x": 960,
+                "y": 0,
+                "width": 960,
+                "height": 1200
+            }
+        },
+        {
+            "name": "Present_Front_RightEye",
+            "targetWindow": "Window_Front",
+            "viewportRect": {
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 1200
+            }
+        },
+        {
+            "name": "Present_Left_LeftEye",
+            "targetWindow": "Window_Left",
+            "viewportRect": {
+                "x": 960,
+                "y": 0,
+                "width": 960,
+                "height": 1200
+            }
+        },
+        {
+            "name": "Present_Left_RightEye",
+            "targetWindow": "Window_Left",
+            "viewportRect": {
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 1200
+            }
+        },
+        {
+            "name": "Present_Right_LeftEye",
+            "targetWindow": "Window_Right",
+            "viewportRect": {
+                "x": 960,
+                "y": 0,
+                "width": 960,
+                "height": 1200
+            }
+        },
+        {
+            "name": "Present_Right_RightEye",
+            "targetWindow": "Window_Right",
+            "viewportRect": {
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 1200
+            }
+        },
+        {
+            "name": "Present_Floor_LeftEye",
+            "targetWindow": "Window_Floor",
+            "viewportRect": {
+                "x": 960,
+                "y": 0,
+                "width": 960,
+                "height": 1200
+            }
+        },
+        {
+            "name": "Present_Floor_RightEye",
+            "targetWindow": "Window_Floor",
+            "viewportRect": {
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 1200
+            }
+        }
+    ],
+    "renderScreenOverrides": [
+        {
+            "name": "FrontScreenOrigin",
+            "position": [
+                0,
+                0.95,
+                1.125
+            ],
+            "size": [
+                2.25,
+                1.9
+            ]
+        },
+        {
+            "name": "LeftScreenOrigin",
+            "position": [
+                -1.125,
+                0.95,
+                0
+            ],
+            "size": [
+                2.25,
+                1.9
+            ]
+        },
+        {
+            "name": "RightScreenOrigin",
+            "position": [
+                1.125,
+                0.95,
+                0
+            ],
+            "size": [
+                2.25,
+                1.9
+            ]
+        }
+    ]
+}
